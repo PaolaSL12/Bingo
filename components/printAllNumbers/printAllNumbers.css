@@ -28,63 +28,63 @@
 }
 
 
-@media screen and (min-width: 240px) and (max-width: 337px) {
+@media screen and (min-width: 240px) and (max-width: 319px) {
     .divAllNumbers {
-        height: 646svh;
+        height: 712svh;
     }
 }
 
-@media screen and (min-width: 338px) and (max-width: 437px) {
+@media screen and (min-width: 320px) and (max-width: 419px) {
     .divAllNumbers {
-        height: 430svh;
+        height: 475svh;
     }
 }
 
 
-@media screen and (min-width: 438px) and (max-width: 537px) {
+@media screen and (min-width: 420px) and (max-width: 519px) {
     .divAllNumbers {
-        height: 330svh;
+        height: 370svh;
     }
 }
 
-@media screen and (min-width: 538px) and (max-width: 637px) {
+@media screen and (min-width: 520px) and (max-width: 619px) {
     .divAllNumbers {
-        height: 258svh;
+        height: 285svh;
     }
 }
 
-@media screen and (min-width: 638px) and (max-width: 737px) {
+@media screen and (min-width: 620px) and (max-width: 719px) {
     .divAllNumbers {
-        height: 215svh;
+        height: 236svh;
     }
 }
 
-@media screen and (min-width: 738px) and (max-width: 837px) {
+@media screen and (min-width: 720px) and (max-width: 819px) {
     .divAllNumbers {
-        height: 185svh;
+        height: 209svh;
     }
 }
 
-@media screen and (min-width: 838px) and (max-width: 937px) {
+@media screen and (min-width: 820px) and (max-width: 918px) {
     .divAllNumbers {
-        height: 171svh;
+        height: 190svh;
     }
 }
 
-@media screen and (min-width: 938px) and (max-width: 1037px) {
+@media screen and (min-width: 919px) and (max-width: 1018px) {
     .divAllNumbers {
-        height: 143svh;
+        height: 159svh;
     }
 }
 
-@media screen and (min-width: 1038px) and (max-width: 1137px) {
+@media screen and (min-width: 1019px) and (max-width: 1120px) {
     .divAllNumbers {
-        height: 130svh;
+        height: 147svh;
     }
 }
 
-@media screen and (min-width: 1237px) {
+@media screen and (min-width: 1121px) {
     .divAllNumbers {
-        height: 120svh;
+        height: 140svh;
     }
 }

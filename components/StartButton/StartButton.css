@@ -1,0 +1,19 @@
+.startButton {
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startButton > button {
+    font-size: 1.2em;
+    padding: var(--b-padding-s);
+    border-radius: var(--b-br);
+    background-color: var(--b-highlight-color-ligth);
+    cursor: pointer;
+}
+
+.none {
+    display: none;
+}

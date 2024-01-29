@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+:root {
+  --b-primary-color: #DBE3E6;
+  --b-secondary-color: #EFF7DF;
+  --b-text-color: #443641;
+  --b-highlight-color-ligth: #0099b868;
+  --b-background-color: var(--b-primary-color);
+
+  --b-margin-s:10px;
+  --b-margin-m:20px;
+  --b-margin-l:30px;
+  --b-margin-xl:40px;
+
+  --b-padding-s:10px;
+  --b-padding-m:20px;
+  --b-padding-l:30px;
+  --b-padding-xl:40px;
+
+  --b-br: 10px;
+  --b-br-round: 100%;
+}
+
+* {
+  font-family: 'Single Day', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: var(--b-text-color);
+}
+
+body {
+  background-color: var(--b-background-color);
+};
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

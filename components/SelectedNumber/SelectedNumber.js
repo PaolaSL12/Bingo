@@ -2,10 +2,12 @@ import { bingoNumbers } from "../data/allNumbers";
 import { generateRandomNumbers } from "../data/randomNumbers";
 
 let paused = false;
+let reset = false;
 
 export function togglePause() {
     paused = !paused;
 }
+
 
 export const SelectedNumber = async () => {
     const selectedContainer = document.querySelector(".divNumber");
@@ -28,9 +30,9 @@ export const SelectedNumber = async () => {
             const numberSelected = document.createElement("p");
             const currentNumber = bingoNumbers[randomNumbers[i]];
 
-            const utterThis = new SpeechSynthesisUtterance(`${currentNumber}`)
+            const utterThis = new SpeechSynthesisUtterance(`${currentNumber}`);
 
-            synth.speak(utterThis)
+            synth.speak(utterThis);
             numberSelected.textContent = currentNumber;
             selectedContainer.append(numberSelected);
 
@@ -43,5 +45,9 @@ export const SelectedNumber = async () => {
                 }
             });
         }
+
     }
+
+   
 };
+

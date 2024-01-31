@@ -1,4 +1,6 @@
 import { togglePause } from "../SelectedNumber/SelectedNumber";
+
+
 import "./printButtonPuse.css";
 
 export const printButtonPuse = () => {
@@ -17,4 +19,23 @@ export const printButtonPuse = () => {
 
     divPauseButton.append(pauseButton);
     appContainer.append(divPauseButton);
+}
+
+
+export const printRestartButton = () => {
+
+    const appContainer = document.querySelector("#app");
+
+    const divButton = document.querySelector(".divPauseButton");
+    const restartButton = document.createElement("button");
+
+    restartButton.textContent = "REINICIAR JUEGO";
+
+    restartButton.addEventListener("click", () => {
+      window.location.reload()
+
+    });
+
+
+    divButton.append(restartButton)
 }

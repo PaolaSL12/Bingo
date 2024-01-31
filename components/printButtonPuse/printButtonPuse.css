@@ -1,6 +1,6 @@
 .divPauseButton {
     width: 100%;
-    height: 150px;
+    height: 10svh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,45 @@
 .divPauseButton > button {
     font-size: 1.2em;
     padding: var(--b-padding-s);
+    margin: 0 var(--b-margin-s);
     border-radius: var(--b-br);
     background-color: var(--b-highlight-color-ligth);
     cursor: pointer;
+}
+
+@media screen and (max-width: 299px) { 
+    .divPauseButton > button {
+        font-size: 0.7em;
+        padding: var(--b-padding-xs);
+    }
+
+    .divPauseButton {
+        height: 9svh;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 489px) { 
+    .divPauseButton > button {
+        font-size: 0.8em;
+        padding: var(--b-padding-xs);
+    }
+
+    .divPauseButton {
+        height: 9svh;
+    }
+}
+
+@media screen and (min-width: 490px) and (max-width: 579px) {
+    .divPauseButton > button {
+        font-size: 1em;
+        padding: var(--b-padding-xs);
+    }
+
+}
+
+@media screen and (min-width: 580px) and (max-width: 849px) {
+    .divPauseButton > button {
+        font-size: 1em;
+        padding: var(--b-padding-xs);
+    }
 }

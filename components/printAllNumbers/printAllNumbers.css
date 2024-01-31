@@ -47,44 +47,87 @@
     }
 }
 
-@media screen and (min-width: 520px) and (max-width: 619px) {
+@media screen and (max-width: 299px) { 
     .divAllNumbers {
-        height: 285svh;
+        height: 80svh;
+        grid-template-columns: repeat(auto-fit, 22px);
+        grid-template-rows:  repeat(auto-fit, 22px);;
+        gap: 8px;
+        justify-content: space-evenly;
+        padding: 0 var(--b-padding-m);
+    }
+
+    .divnumber > p {
+        font-size: 0.7em;
     }
 }
 
-@media screen and (min-width: 620px) and (max-width: 719px) {
+@media screen and (min-width: 300px) and (max-width: 489px) {
     .divAllNumbers {
-        height: 236svh;
+        height: 75svh;
+        grid-template-columns: repeat(auto-fit, 28px);
+        grid-template-rows:  repeat(auto-fit, 28px);;
+        gap: 10px;
+        justify-content: space-evenly;
+        padding: 0 var(--b-padding-m);
+    }
+
+    .divnumber > p {
+        font-size: 0.9em;
     }
 }
 
-@media screen and (min-width: 720px) and (max-width: 819px) {
+@media screen and (min-width: 490px) and (max-width: 579px) {
     .divAllNumbers {
-        height: 209svh;
+        height: 70svh;
+        grid-template-columns: repeat(auto-fit, 30px);
+        grid-template-rows:  repeat(auto-fit, 30px);;
+        gap: 18px;
+        justify-content: space-evenly;
+        padding: 0 var(--b-padding-m);
+    }
+
+    .divnumber > p {
+        font-size: 0.9em;
     }
 }
 
-@media screen and (min-width: 820px) and (max-width: 918px) {
+
+@media screen and (min-width: 580px) and (max-width: 849px) {
     .divAllNumbers {
-        height: 190svh;
+        height: 70svh;
+        grid-template-columns: repeat(auto-fit, 35px);
+        grid-template-rows:  repeat(auto-fit, 35px);;
+        gap: 18px;
+        justify-content: space-evenly;
+        padding: 0 var(--b-padding-m);
+    }
+
+    .divnumber > p {
+        font-size: 1em;
     }
 }
 
-@media screen and (min-width: 919px) and (max-width: 1018px) {
+@media screen and (min-width: 850px) and (max-width: 1199px) {
     .divAllNumbers {
-        height: 159svh;
+        height: 70svh;
+        grid-template-columns: repeat(auto-fit, 45px);
+        grid-template-rows:  repeat(auto-fit, 45px);;
+        gap: 18px;
+    }
+    
+    .divnumber > p {
+        font-size: 1em;
     }
 }
 
-@media screen and (min-width: 1019px) and (max-width: 1120px) {
-    .divAllNumbers {
-        height: 147svh;
-    }
-}
+@media screen and (min-width: 1200px) {
 
-@media screen and (min-width: 1121px) {
     .divAllNumbers {
-        height: 140svh;
+        width: 90%;
+        margin: auto;
+        height: 70svh;
+        grid-template-columns: repeat(auto-fit, 50px);
+        grid-template-rows:  repeat(auto-fit, 50px);
     }
 }

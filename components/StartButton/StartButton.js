@@ -1,7 +1,7 @@
 
 import { SelectedNumber } from "../SelectedNumber/SelectedNumber";
 import { printAllNumbers } from "../printAllNumbers/printAllNumbers";
-import { printButtonPuse } from "../printButtonPuse/printButtonPuse";
+import { printButtonPuse, printRestartButton } from "../printButtonPuse/printButtonPuse";
 import { printSelectedNumber } from "../printSelectedNumber/printSelectedNumber";
 import "./StartButton.css";
 
@@ -12,6 +12,8 @@ export const printStartButton = () => {
   const startButton = document.createElement("button");
 
   divStartButton.className = "startButton";
+  divStartButton.id = "start"
+  startButton.id = "startButton"
   startButton.textContent = "EMPEZAR JUEGO";
   startButton.addEventListener("click", () => {
     startButton.className = "none";
@@ -20,7 +22,8 @@ export const printStartButton = () => {
     printSelectedNumber();
     SelectedNumber()
     printAllNumbers();
-    printButtonPuse()
+    printButtonPuse();
+    printRestartButton();
 
     
   });
